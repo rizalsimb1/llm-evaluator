@@ -1,0 +1,9 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llm-evaluator"
+version = "0.1.0"
+description = "Production-ready wrapper for multiple LLM providers"
+requires-python = ">=3.11"
